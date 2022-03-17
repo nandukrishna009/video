@@ -1,0 +1,128 @@
+
+
+.nav-tabs {
+    display: inline-flex;
+    width: 100%;
+    border-bottom: none !important;
+    overflow-x: auto;
+    -ms-overflow-style: none; // IE 10+
+    overflow: -moz-scrollbars-none; // Firefox}
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li.active>a:hover {
+        border-width: 0;
+    }
+    .nav-tabs>li>a {
+        border: none;
+        color: #000;
+    }
+    .nav-tabs>li.active>a,
+    .nav-tabs>li>a:hover {
+        border: none !important;
+        color: red !important;
+        background: none !important;
+    }
+    .nav-tabs>li>a::after {
+        content: "";
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        bottom: 1px;
+        transition: all 250ms ease 0s;
+        transform: scale(0);
+    }
+    .nav-tabs>li.active>a::after,
+    .nav-tabs>li:hover>a::after {
+        transform: scale(1);  
+    }
+    .tab-nav>li>a::after {
+        color: #fff;
+    }
+    .tab-pane {
+        padding: 15px 0;
+    }
+    .tab-content {
+        padding: 20px
+    }
+
+    .nav-tabs::-webkit-scrollbar {
+        display: none; // Safari and Chrome
+    }
+    .card {
+        background: #FFF none repeat scroll 0% 0%;
+        margin-bottom: 30px;
+    }
+    body {
+        background: #EDECEC;
+    }.nav-tabs {
+    display: inline-flex;
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: none; // IE 10+
+    overflow: -moz-scrollbars-none; // Firefox}
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li.active>a:hover {
+        border-width: 0;
+    }
+    .nav-tabs>li>a {
+        border: none;
+        color: #666;
+    }
+    .nav-tabs>li.active>a,
+    .nav-tabs>li>a:hover {
+        border: none;
+        color: #000000 !important;
+        background: transparent;
+    }
+    .nav-tabs>li>a::after {
+        content: "";
+        background: #e02a2a;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        bottom: 1px;
+        transition: all 250ms ease 0s;
+        transform: scale(0);
+    }
+    .nav-tabs>li.active>a::after,
+    .nav-tabs>li:hover>a::after {
+        transform: scale(1);  
+    }
+    .tab-nav>li>a::after {
+        color: #fff;
+    }
+    .tab-pane {
+        padding: 15px 0;
+    }
+    .tab-content {
+        padding: 20px
+    }
+
+    .nav-tabs::-webkit-scrollbar {
+        display: none; // Safari and Chrome
+    }
+    .card {
+        background: #FFF none repeat scroll 0% 0%;
+        margin-bottom: 30px;
+    }
+   
+
+    /*--------------------------------*/
+    .group {display:inline-block; width:20vw}
+    video {width:20vw}
+
+    .flex-cont{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-cont > .group{
+        margin: 0px 0px 0px 10px;
+        text-align: center;
+
+    }
+
+    
