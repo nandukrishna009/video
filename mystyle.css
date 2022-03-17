@@ -19,7 +19,7 @@
     .nav-tabs>li.active>a,
     .nav-tabs>li>a:hover {
         border: none !important;
-        color: red !important;
+        color: rgb(0, 0, 0) !important;
         background: none !important;
     }
     .nav-tabs>li>a::after {
