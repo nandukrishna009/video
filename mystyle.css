@@ -19,7 +19,7 @@
     .nav-tabs>li.active>a,
     .nav-tabs>li>a:hover {
         border: none !important;
-        color: red !important;
+        color: rgb(0, 0, 0) !important;
         background: none !important;
     }
     .nav-tabs>li>a::after {
@@ -37,7 +37,7 @@
         transform: scale(1);  
     }
     .tab-nav>li>a::after {
-        color: #fff;
+        color: rgb(204, 29, 29);
     }
     .tab-pane {
         padding: 15px 0;
